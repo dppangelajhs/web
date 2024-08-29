@@ -86,7 +86,7 @@ function changeBackground() {
 setInterval(changeBackground, 5000);
 
 document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
+    if (!window.location.pathname.endsWith('karya-kami.html') || window.location.pathname === '/') {
         const heroArea = document.querySelector('.hero_area');
         heroArea.style.setProperty('--bg-image', `url(${images[currentIndex]})`);
     }
