@@ -1175,3 +1175,26 @@ header {
 .footer_section p a {
   color: inherit;
 }
+
+.button-theme {
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+  background-color: #da7426;
+  border: 2px solid #da7426;
+  color: black;
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-theme:hover {
+  background-color: transparent;
+  color: #da7426;
+}
+
+.button-theme:active {
+  outline: none;
+}
