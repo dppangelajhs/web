@@ -17,28 +17,6 @@
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/responsive.css" rel="stylesheet"/>
-
-    <style>
-      .general-btn {
-        display: inline-block;
-        padding: 10px 15px;
-        background-color: #da7426;
-        color: #000000;
-        border-radius: 0;
-        -webkit-transition: all .3s;
-        transition: all .3s;
-        border: 1px solid #da7426;
-        width: 100%;
-        box-sizing: border-box;
-        margin-bottom: 5px;
-      }
-
-      .general-btn:hover {
-        background-color: transparent;
-        color: #da7426;
-        text-shadow: -0.2px -0.2px 0 #000, 0.2px -0.2px 0 #000, -0.2px 0.2px 0 #000, 0.2px 0.2px 0 #000;
-      }
-    </style>
   </head>
 
   <body>
@@ -47,9 +25,7 @@
         <div class="container-fluid">
           <nav class="navbar navbar-expand-lg custom_nav-container ">
             <a class="navbar-brand navbar_brand_mobile" href="index.html"
-              style="
-                align-items: center;
-              "
+              style="align-items: center;"
             > <img src="images/nav-logo.png" alt="Logo" class="nav-logo">&#160;dppangelajhs</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,7 +42,7 @@
                   <a class="nav-link" href="index.html#program-kami">Program</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="karya-kami.html">Karya Kami</a>
+                  <a class="nav-link" href="#main">Karya Kami</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="https://drive.google.com/drive/folders/1BGPvr-iLw9l7eMa9XVeNekv77CFpors4?usp=sharing">Dokumentasi</a>
@@ -132,6 +108,33 @@
                 yang dapat dimainkan oleh siapa saja dengan perangkat yang memadai.
               </p>
 
+              <div class="countdown-container">
+                <center><h3>Pengujian Beta berakhir dalam</h3></center>
+                <div class="countdown">
+                  <div class="time-box">
+                    <span id="days">00</span>
+                    <p style="color: white; margin: 0;">Hari</p>
+                  </div>
+                  <div class="time-box">
+                    <span id="hours">00</span>
+                    <p style="color: white; margin: 0;">Jam</p>
+                  </div>
+                  <div class="time-box">
+                    <span id="minutes">00</span>
+                    <p style="color: white; margin: 0;">Menit</p>
+                  </div>
+                  <div class="time-box">
+                    <span id="seconds">00</span>
+                    <p style="color: white; margin: 0;">Detik</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="annoucement-text hide">
+                <h5>Menunggu tanggal rilis dari admin.</h5>
+                <h6>(Harap datang kembali sekitar 3 hari lagi.)</h6>
+              </div>
+
               <h3 class="navbar_brand_desktop"><span>Akan segera hadir pada</span></h3>
               <h5 class="navbar_brand_desktop">
                 <i class="fa fa-android" style="font-size:36px"></i>&#160;Android Mobile &#160;&#160;&#160;
@@ -139,44 +142,7 @@
               </h5>
 
               <h3 class="navbar_brand_mobile">Akan segera&#160;<span>hadir!</span></h3>
-    
-              <!-- <h3><span>Requirements</span></h3>
-              <b>
-                Supported OS: Android Mobile & Windows Desktop<br>
-                Storage: 200 MB<br>
-                RAM: 1 GB<br>
-                Internet Connection<br>
-              </b>
-
-              <h3 style="padding-top: 20px;"><span>File Size</span></h3>
-              <b>
-                Android (Google Play): 110 MB<br>
-                Windows (Compressed): 144 MB<br>
-                Windows (Application): 144 MB
-              </b>
-
-              <div class="btn-box navbar_brand_desktop">
-                <a href="pramuka-sejati-installer.html" class="btn1">
-                  &#160;&#160;&#160;Install Aplikasi&#160;&#160;
-                </a>
-                <a href="privacy-policy.html" class="btn1">
-                  Kebijakan Privasi
-                </a>
-              </div> -->
-
-              <!-- <div class="navbar_brand_mobile">
-                <div class="btn-box">
-                  <a href="pramuka-sejati-installer.html" class="general-btn" style="
-                      width: 100%;
-                      box-sizing: border-box;
-                      margin-bottom: 5px;
-                    ">
-                    &#160;&#160;&#160;Install Aplikasi&#160;&#160;
-                  </a>
-                </div>
-              </div> -->
             </div>
-            <!-- <p class="navbar_brand_mobile">Baca pula kebijakan privasi di sini (<a href="privacy-policy.html">Privacy Policy</a>).</p> -->
           </div>
           <div class="col-md-6 ">
             <div class="img-box">
@@ -373,5 +339,6 @@
     <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
     <script src="js/custom.js"></script>
+    <script src="js/launch-countdown.js"></script>
   </body>
 </html>
