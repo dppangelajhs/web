@@ -1,4 +1,4 @@
-const launchDate = new Date("2024-10-29T15:00:00").getTime();
+const launchDate = new Date("2024-10-19T14:00:00").getTime();
 let prevDays, prevHours, prevMinutes, prevSeconds;
 let countdownInterval; 
 
