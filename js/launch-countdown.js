@@ -10,7 +10,7 @@ function updateCountdown() {
         clearInterval(countdownInterval);
         document.querySelector(".countdown-container").classList.add("hide");
         document.querySelector(".coming-soon").classList.add("hide");
-        document.querySelector(".release").classList.remove("release");
+        document.querySelector(".annoucement-text").classList.remove("hide");
         return;
     }
 
