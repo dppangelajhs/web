@@ -1,4 +1,4 @@
-const launchDate = new Date("2024-10-19T14:00:00").getTime();
+const launchDate = new Date("2024-10-28T09:00:00").getTime();
 let prevDays, prevHours, prevMinutes, prevSeconds;
 let countdownInterval; 
 
@@ -10,7 +10,7 @@ function updateCountdown() {
         clearInterval(countdownInterval);
         document.querySelector(".countdown-container").classList.add("hide");
         document.querySelector(".coming-soon").classList.add("hide");
-        document.querySelector(".annoucement-text").classList.remove("hide");
+        document.querySelector(".release").classList.remove("release");
         return;
     }
 
