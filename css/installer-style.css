@@ -25,6 +25,7 @@ h2 {
     padding-bottom: 10px;
 }
 
+p {text-align: justify;}
 h3 {
     color: #444;
     border-bottom: 2px solid #bd763f;
@@ -78,6 +79,7 @@ ul {
 .content-collapsible.show {max-height: 1000px;}
 .collapsible.collapsible-active::after {content: '\25B2';}
 .collapsible-active, .collapsible:hover {background-color: #662700;}
+.coming-soon {display: none;}
 
 .collapsible::after {
     content: '\25BC';
