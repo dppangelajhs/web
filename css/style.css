@@ -1019,6 +1019,7 @@ header {
   position: relative;
   background-color: #252525;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 
 .info_section h5 {
@@ -1225,6 +1226,7 @@ header {
   align-items: center;
   font-family: Arial, sans-serif;
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .countdown {
@@ -1291,5 +1293,4 @@ header {
   text-align: center;
 }
 
-.release {display: none;}
-.annoucement-text h6 {margin-bottom: 0;}
+.coming-soon {display: none;}
