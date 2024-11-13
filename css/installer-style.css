@@ -141,3 +141,11 @@ textarea {
     border-radius: 3px; 
     box-sizing: border-box; 
 }
+
+.tutorial-img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 10px auto;
+}
