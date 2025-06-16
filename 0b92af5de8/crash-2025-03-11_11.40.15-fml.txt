@@ -24,7 +24,6 @@ IP Address: 192.168.1.8
 MAC Address: 00:1A:92:BC:DE:F0
 
 Failure Reason: 
-  • Account 'evan.wangsaputra' unknown.
   • System access restricted to student and teachers only.
 
 ---------------------------------------
