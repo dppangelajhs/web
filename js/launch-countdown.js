@@ -9,8 +9,7 @@ function updateCountdown() {
     if (timeRemaining < 0) {
         clearInterval(countdownInterval);
         document.querySelector(".countdown-container").classList.add("hide");
-        document.querySelector(".coming-soon").classList.add("hide");
-        document.querySelector(".release").classList.remove("release");
+        document.querySelector(".release").classList.add("show");
         return;
     }
 
@@ -43,8 +42,4 @@ function updateCountdown() {
 updateCountdown();
 countdownInterval = setInterval(function () {
     updateCountdown();
-
 }, 1000); 
-
-
-
