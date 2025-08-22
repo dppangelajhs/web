@@ -1279,8 +1279,12 @@ header {
   }
 }
 
-.hide {
+.hide, .release {
   display: none;
+}
+
+.show {
+  display: contents;
 }
 
 .annoucement-text {
