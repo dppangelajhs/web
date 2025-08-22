@@ -1,4 +1,4 @@
-const launchDate = new Date("2025-08-23T09:55:00").getTime();
+const launchDate = new Date("2025-08-23T09:45:00").getTime();
 let prevDays, prevHours, prevMinutes, prevSeconds;
 let countdownInterval; 
 
@@ -45,5 +45,6 @@ countdownInterval = setInterval(function () {
     updateCountdown();
 
 }, 1000); 
+
 
 
